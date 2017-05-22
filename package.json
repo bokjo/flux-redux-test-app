@@ -1,0 +1,42 @@
+{
+  "name": "flux-redux-test-app",
+  "version": "1.0.0",
+  "description": "Introduction to Flux and Redux with example apps [LEARNING]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base public/ --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bokjo/flux-redux-test-app.git"
+  },
+  "keywords": [
+    "flux",
+    "redux",
+    "test",
+    "app",
+    "nodejs",
+    "node",
+    "js"
+  ],
+  "author": "Bojanche Stojchevski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bokjo/flux-redux-test-app/issues"
+  },
+  "homepage": "https://github.com/bokjo/flux-redux-test-app#readme",
+  "dependencies": {
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
